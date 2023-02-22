@@ -19,7 +19,7 @@ export default defineConfig({
   themeConfig: {
     sidebar,
     editLink: {
-      pattern: 'https://github.com/forma-web/forma-wiki/edit/main/src/:path',
+      pattern: 'https://github.com/forma-web/forma-wiki/edit/master/src/:path',
       text: 'Исправить эту страницу на GitHub',
     },
   },
