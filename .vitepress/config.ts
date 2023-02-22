@@ -12,6 +12,7 @@ export const sidebar = [
 
 export default defineConfig({
   srcDir: 'src',
+  base: '/forma-wiki/', // see: https://vitepress.vuejs.org/guide/deploying#using-github-actions
   lang: 'ru-RU',
   title: 'Forma Web Wiki',
   lastUpdated: true,
