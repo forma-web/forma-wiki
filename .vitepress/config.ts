@@ -8,6 +8,12 @@ export const sidebar = [
       {text: 'Сущности', link: '/crm/entities'},
     ],
   },
+  {
+    text: 'Гайды',
+    items: [
+      {text: 'Иструменты', link: '/guides/tools'},
+    ],
+  },
 ];
 
 export default defineConfig({
