@@ -100,6 +100,12 @@ php -r "unlink('composer-setup.php');"
 composer --version
 ```
 
+**3. Переместить исполняемый файл**
+
+```bash
+sudo mv composer.phar /usr/local/bin/composer
+```
+
 ::: tip
 Для корректной работы Composer рекомендуется установить cURL
 
