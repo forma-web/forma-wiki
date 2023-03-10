@@ -71,7 +71,7 @@ sudo apt update
 **2. Установка PHP и расширений**
 
 ```bash
-sudo apt install php8.2 php8.2-cli php8.2-{zip,curl,bz2,mbstring,intl}
+sudo apt install php8.2 php8.2-cli php8.2-{zip,curl,bz2,mbstring,intl,dom,xml}
 ```
 
 **3. Проверить установку можно командой, которая выведет установленную версию PHP**
